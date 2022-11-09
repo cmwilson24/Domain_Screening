@@ -14,6 +14,10 @@ Trim demultiplexed files
 seqtk trimfq -b 16 -e 16 input.fq > trimmed.fq
 ```
 
+Gzip your files
+
+Create a sample sheet for your experiments (.yaml file)
+
 
 
 
