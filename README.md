@@ -20,7 +20,7 @@ Create a sample sheet for your experiments (.yaml file)
 
 
 
-
+In a new conda environment, install the following: 
 First install 3 fusions from JH. dCas9-fusions is private, so you will need an authentication token from your github account.
 ```
 git clone git@github.com:jeffhussmann/hits.git
