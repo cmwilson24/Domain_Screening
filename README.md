@@ -22,7 +22,8 @@ Alternatively, if you have a lot of samples, you can do the following set of com
 conda activate PacBio
 ```python
 lima --same --split-named --dump-clips -j 25 --log-level=INFO m84066_231208_174057_s1.hifi_reads.bam  DCF007_barcodes.fa ccs.demux.bam 
-```#Run lima to demux files based on the PCR barcoded primers specified in the barcodes.fa file.
+
+#Run lima to demux files based on the PCR barcoded primers specified in the barcodes.fa file.
 
 #Use the ccs.demux.report.counts to get a sense of read numbers per demuxed samples
 **If you used multiple flowcells and now need to combine samples**
