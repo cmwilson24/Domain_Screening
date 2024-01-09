@@ -17,7 +17,7 @@ Gzip your files
 
 Create a sample sheet for your experiments (.yaml file) - see example
 
-Alternatively, if you have a lot of samples, you can do the following set of commands (for batch/high throughput sample processing):
+**Alternatively, if you have a lot of samples, you can do the following set of commands (for batch/high throughput sample processing):***
 #Start with conda environment needed to demux and trim files. If using PacBio REVIO - We don't need to do CCS because these are HIFI reads
 conda activate PacBio
 ```python
