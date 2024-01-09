@@ -1,9 +1,9 @@
 # Domain Screening
-Gilbert Lab domain screening pipeline
+Gilbert Lab domain screening analysis pipeline
+ <img width="1738" alt="image" src="https://github.com/cmwilson24/Domain_Screening/assets/62605069/f33b2aa3-b780-4ad3-a743-e6c76f0b9b40">
 
 PacBio Demultiplexing with _lima_
   You will need a barcode fasta file that will look something like this: 
-  <<Insert screenshot here >>
   
 ```
 lima --ccs --same --split-named --dump-clips -j 10 --log-level=INFO input.ccs.bam barcodes.fa output.ccs.demux.bam
