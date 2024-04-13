@@ -58,7 +58,7 @@ for trimmed_file in trimmed_output_newbc/*.fastq; do
 ```
 **Time for alignments**
 In a new conda environment, install the following: 
-First install 3 fusions from JH. dCas9-fusions is private, so you will need an authentication token from your github account.
+First install 3 fusions from JH. See dCas9-fusions for next steps. They will start with the following...
 ```
 git clone git@github.com:jeffhussmann/hits.git
 git clone git@github.com:jeffhussmann/knock-knock.git
