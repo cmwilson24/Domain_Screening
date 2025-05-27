@@ -8,7 +8,7 @@ PacBio Demultiplexing with _lima_
 ```
 lima --ccs --same --split-named --dump-clips -j 20 --log-level=INFO input.ccs.bam barcodes.fa output.ccs.demux.bam
 ```
-Trim demultiplexed files
+Trim demultiplexed files - trimming is only necessary if sequencing on a SequelII/IIe. Otherwise skip. 
 ```
 seqtk trimfq -b 16 -e 16 input.fq > trimmed.fq
 ```
