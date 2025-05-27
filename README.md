@@ -14,6 +14,9 @@ seqtk trimfq -b 16 -e 16 input.fq > trimmed.fq
 ```
 
 Gzip your files
+```
+pigz -p 8 file.fq
+```
 
 Create a sample sheet for your experiments (.yaml file) - see example
 
