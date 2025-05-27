@@ -6,7 +6,7 @@ PacBio Demultiplexing with _lima_
   You will need a barcode fasta file that will look something like this: 
   
 ```
-lima --ccs --same --split-named --dump-clips -j 10 --log-level=INFO input.ccs.bam barcodes.fa output.ccs.demux.bam
+lima --ccs --same --split-named --dump-clips -j 20 --log-level=INFO input.ccs.bam barcodes.fa output.ccs.demux.bam
 ```
 Trim demultiplexed files
 ```
